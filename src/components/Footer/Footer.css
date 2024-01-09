@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #E7A503;
+    padding: 15px 35px;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-size: 1.1rem;
+}
