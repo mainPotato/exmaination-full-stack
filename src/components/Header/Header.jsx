@@ -10,9 +10,9 @@ function Header() {
           {/* <li id='AUTS-button'><NavLink to="#">AUTS</NavLink></li> */}
         </ul>
         <ul className='sidebar-container navbarAnchors'>
-          <li><NavLink to="/" >Home</NavLink></li>
-          <li><NavLink to="/login" >Login</NavLink></li>
-          <li id='AUTS-button'><NavLink to="/admission" >Admission</NavLink></li>
+          <li><NavLink to="/home" >Home</NavLink></li>
+          <li><NavLink to="courses" >Courses</NavLink></li>
+          <li id='AUTS-button'><NavLink to="examination" >Examination</NavLink></li>
           <li><NavLink to="profile" >Profile</NavLink></li>
         </ul>
       </div>

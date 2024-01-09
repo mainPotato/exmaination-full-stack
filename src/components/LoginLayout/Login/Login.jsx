@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 import './Login.css'
 import Input from '../Input'
 
@@ -33,8 +33,8 @@ function Login() {
                 <input type="submit" name="" id="" value="Login" />
                 <p><a href="">Forgot password</a></p>
             </form>
-            <div>
-                <h1>Don't have an account! Register here</h1>
+            <div className='regiter-container'>
+                <p>Don't have an account! <NavLink to='/register'>Register here</NavLink></p>
             </div>
         </>
 

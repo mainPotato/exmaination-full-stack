@@ -18,10 +18,16 @@
 .login-input-container {
     background-color: #fff;
     width: 70%;
-    margin: 40px;
+    max-height: 70%;
+    overflow: scroll;
+    margin: 20px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-input-container::-webkit-scrollbar {
+    display: none;
 }
 
 input[type=submit] {
@@ -47,4 +53,8 @@ input[type=submit]:hover {
 
 .login-container p:hover {
     color: black;
+}
+
+.regiter-container p a {
+    color: #024c69;
 }
