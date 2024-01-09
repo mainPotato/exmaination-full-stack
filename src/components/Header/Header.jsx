@@ -13,7 +13,7 @@ function Header() {
           <li><NavLink to="/" >Home</NavLink></li>
           <li><NavLink to="/login" >Login</NavLink></li>
           <li id='AUTS-button'><NavLink to="/admission" >Admission</NavLink></li>
-          <li><NavLink to="/profile" >Profile</NavLink></li>
+          <li><NavLink to="profile" >Profile</NavLink></li>
         </ul>
       </div>
     </div>

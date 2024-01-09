@@ -1,0 +1,17 @@
+.input-fields {
+    margin-bottom: 15px;
+}
+
+.input-fields label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-fields input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

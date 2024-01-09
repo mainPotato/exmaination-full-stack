@@ -1,5 +1,5 @@
 import React, { useId } from 'react'
-import './Login.css'
+import './Input.css'
 
 function Input({label, type, value, setValue}) {
     const handleValueChange = (e) => {
