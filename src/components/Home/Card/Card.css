@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    max-height: 500px;
+    max-width: 320px;
+    margin: 15px;
+}
+
+.card img {
+    max-width: 320px !important;
+    max-height: 107px !important;
+    border-radius: 15px !important;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding: 15px;
+}
+
+.card-content h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.card-content a {
+    color: #E7A503;
+    font-weight: 600;
+}

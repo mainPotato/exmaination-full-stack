@@ -1,0 +1,96 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 35px;
+    background-color: #d5e4f3;
+    justify-content: space-evenly;
+}
+
+.about-container img {
+    padding: 15px;
+    width: 50%;
+    border-radius: 50px;
+    object-fit: cover;
+    height: auto;
+}
+
+.about-detail {
+    padding: 15px;
+    width: 50%;
+}
+
+h3 {
+    color: #E7A503;
+    font-size: 1.1rem;
+    font-weight: 900 !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    margin: 8px !important;
+}
+
+.about-detail p {
+    color: #245b73;
+    margin: 7px 0px;
+}
+
+.list-container {
+    margin: 15px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list li {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+}
+
+.list-number {
+    background-color: #E7A503;
+    max-height: 55px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 18px;
+    border-radius: 50%;
+}
+
+.list-text {
+    padding: 0px 15px;
+}
+
+.list-text h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.campus-buzz-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+}
+
+.campus-buzz-headings {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: unset;
+    justify-content: center;
+    padding: 15px;
+    margin: 0px 15px;
+}
