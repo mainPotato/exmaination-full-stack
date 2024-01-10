@@ -1,7 +1,8 @@
 import React, { useId } from 'react'
 import './Input.css'
 
-function Input({ name, label, type, value, setValue }) {
+function Input({ name, label, type, value, setValue, required=true }) {
+
   const handleValueChange = (e) => {
     if (!setValue && type!="file") {
       alert('setValue function not passed!')
@@ -21,7 +22,7 @@ function Input({ name, label, type, value, setValue }) {
   return (
     <div className='input-fields'>
       <label htmlFor={id}>{label}</label>
-      <input id={id} name={name} type={type} value={value} onChange={handleValueChange} />
+      <input id={id} name={name} type={type} value={value} onChange={handleValueChange} required={required} />
     </div>
   )
 }
